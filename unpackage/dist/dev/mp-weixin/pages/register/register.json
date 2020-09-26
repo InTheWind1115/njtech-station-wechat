@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "南工驿站",
+  "usingComponents": {
+    "modal": "/components/modal/modal"
+  }
+}

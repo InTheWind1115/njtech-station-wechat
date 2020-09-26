@@ -1,0 +1,56 @@
+page {
+  width: 100%;
+  height: 100%;
+}
+.data {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 80rpx 80rpx;
+  background-color: #f6f6f7;
+}
+.data .data-body-usrname,
+.data .data-body-usrphone,
+.data .data-body-usrmail {
+  position: relative;
+  width: 100%;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 30rpx;
+  border-top-left-radius: 40rpx;
+  border-bottom-left-radius: 40rpx;
+  background-color: #FFFFFF;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-bottom: 40rpx;
+}
+.data .data-body-usrname text,
+.data .data-body-usrphone text,
+.data .data-body-usrmail text {
+  display: inline-block;
+  background-color: blue;
+  height: 80rpx;
+  padding-left: 10rpx;
+  border-top-left-radius: 40rpx;
+  border-bottom-left-radius: 40rpx;
+  background-color: #efefef;
+}
+.data .data-body-usrname .data-body-usrmail-btn,
+.data .data-body-usrphone .data-body-usrmail-btn,
+.data .data-body-usrmail .data-body-usrmail-btn {
+  position: absolute;
+  top: 10rpx;
+  right: 0;
+  width: 100rpx;
+  height: 60rpx;
+  font-size: 28rpx;
+  border-radius: 20rpx;
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 60rpx;
+  border: 2px solid #f3ae3c;
+  color: #f3ae3c;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+

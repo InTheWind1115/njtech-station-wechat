@@ -1,0 +1,170 @@
+page {
+  width: 100%;
+  height: 100%;
+}
+.modal-backdrop {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 101;
+}
+.modal-backdrop .modal {
+  width: 400rpx;
+  height: 420rpx;
+  background-color: #FFFFFF;
+  border-radius: 8rpx;
+  box-shadow: 0 4rpx 8rpx rgba(0, 0, 0, 0.16);
+}
+.modal-backdrop .modal .modal-header {
+  box-sizing: border-box;
+  width: 100%;
+  height: 80rpx;
+  border-bottom: 4rpx solid #eeeeee;
+}
+.modal-backdrop .modal .modal-header .modal-header-info {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 0 30rpx;
+}
+.modal-backdrop .modal .modal-header .modal-header-info .modal-header-info-text {
+  height: 100%;
+  font-size: 30rpx;
+  line-height: 60rpx;
+  color: #222222;
+}
+.modal-backdrop .modal .modal-header .modal-header-info .modal-header-info-close {
+  font-family: 'icomoon';
+  height: 100%;
+  width: 50rpx;
+  text-align: center;
+  line-height: 60rpx;
+  font-size: 28rpx;
+}
+.modal-backdrop .modal .modal-body {
+  box-sizing: border-box;
+  width: 100%;
+  height: 260rpx;
+  border-bottom: 4rpx solid #eeeeee;
+}
+.modal-backdrop .modal .modal-body .modal-body-info {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  padding: 10rpx 30rpx;
+  font-size: 30rpx;
+  line-height: 36rpx;
+}
+.modal-backdrop .modal .modal-footer {
+  box-sizing: border-box;
+  width: 100%;
+  height: 80rpx;
+}
+.modal-backdrop .modal .modal-footer .modal-footer-info {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.modal-backdrop .modal .modal-footer .modal-footer-info .modal-footer-info-btn {
+  height: 50rpx;
+  width: 80rpx;
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 50rpx;
+  border: 1px solid #c9c9c9;
+  font-size: 30rpx;
+}
+
+page {
+  height: 100%;
+  width: 100%;
+  background-color: #f6f6f7;
+}
+.mail {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 100rpx 100rpx;
+}
+.mail .mail-get,
+.mail .mail-confirm {
+  position: relative;
+  width: 100%;
+  height: 80rpx;
+  margin-bottom: 80rpx;
+}
+.mail .mail-get .mail-get-btn,
+.mail .mail-confirm .mail-get-btn {
+  position: absolute;
+  box-sizing: border-box;
+  top: 4rpx;
+  right: 4rpx;
+  height: 70rpx;
+  width: 200rpx;
+  line-height: 70rpx;
+  border-radius: 35rpx;
+  text-align: center;
+  background-color: blue;
+  font-size: 28rpx;
+  font-weight: 600;
+  background-color: #00a1d6;
+  color: #FFFFFF;
+  z-index: 100;
+}
+.mail .mail-get .mail-confirm-btn,
+.mail .mail-confirm .mail-confirm-btn {
+  width: 200rpx;
+  height: 80rpx;
+  margin: 0 auto;
+  margin-top: 40rpx;
+  line-height: 80rpx;
+  text-align: center;
+  background-color: #00a1d6;
+  color: #FFFFFF;
+  border-radius: 20rpx;
+}
+.mail .mail-get .mail-get-input,
+.mail .mail-confirm .mail-get-input,
+.mail .mail-get .mail-confirm-input,
+.mail .mail-confirm .mail-confirm-input {
+  width: 100%;
+  height: 100%;
+  font-size: 24rpx;
+  box-sizing: border-box;
+  padding-left: 20rpx;
+  border: 2rpx solid #c9c9c9;
+  border-radius: 40rpx;
+  background-color: #FFFFFF;
+}
+

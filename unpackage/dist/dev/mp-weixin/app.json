@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/profile/profile",
+    "pages/data/data",
+    "pages/aboutus/aboutus",
+    "pages/aboutprivacy/aboutprivacy",
+    "pages/bindmail/bindmail",
+    "pages/chat/chat",
+    "pages/register/register",
+    "pages/enroll/enroll",
+    "pages/index/index",
+    "pages/buy/buy"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "南工驿站",
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#292e3b",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/chat/chat",
+        "text": "匿名聊天",
+        "iconPath": "static/iconfont/message-fill.png",
+        "selectedIconPath": "static/iconfont/message-active.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "广场",
+        "iconPath": "static/iconfont/home-fill.png",
+        "selectedIconPath": "static/iconfont/home-fill-active.png"
+      },
+      {
+        "pagePath": "pages/buy/buy",
+        "text": "二手交易",
+        "iconPath": "static/iconfont/shopping-fill.png",
+        "selectedIconPath": "static/iconfont/shopping-fill-active.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "我的",
+        "iconPath": "static/iconfont/smile-fill.png",
+        "selectedIconPath": "static/iconfont/smile-fill-active.png"
+      }
+    ]
+  },
+  "permission": {},
+  "usingComponents": {}
+}
